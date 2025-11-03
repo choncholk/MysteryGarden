@@ -13,6 +13,7 @@ import "solidity-coverage";
 
 // Support environment variables (PowerShell: $env:MNEMONIC="...")
 // Priority: process.env > vars.get() > default
+// Configuration supports multiple network environments for development and testing
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
 const SEPOLIA_RPC_URL: string | undefined = process.env.SEPOLIA_RPC_URL;
