@@ -30,6 +30,7 @@ contract MysteryGarden is SepoliaConfig {
     
     // Growth threshold for maturity (as plain value, will be encrypted when needed)
     // Note: Using a lower threshold due to simplified growth calculation
+    // This value determines when a plant reaches maturity
     uint32 private constant MATURITY_THRESHOLD_VALUE = 10;
     
     // Events
