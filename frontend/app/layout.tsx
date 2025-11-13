@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "Mystery Garden - FHE Plant Growing Game",
-  description: "A FHEVM-based plant growing game",
+  description: "A FHEVM-based plant growing game with encrypted growth mechanics",
 };
 
 export default async function RootLayout({

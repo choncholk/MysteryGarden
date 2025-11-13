@@ -11,6 +11,7 @@ type Props = {
 };
 
 export function Providers({ children }: Props) {
+  // Provider hierarchy: MetaMask -> EthersSigner -> InMemoryStorage
   return (
     <MetaMaskProvider>
       <MetaMaskEthersSignerProvider initialMockChains={{ 31337: "http://localhost:8545" }}>
