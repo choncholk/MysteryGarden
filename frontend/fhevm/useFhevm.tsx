@@ -13,6 +13,7 @@ function _assert(condition: boolean, message?: string): asserts condition {
 
 export type FhevmGoState = "idle" | "loading" | "ready" | "error";
 
+// Hook for managing FHEVM instance lifecycle
 export function useFhevm(parameters: {
   provider: string | ethers.Eip1193Provider | undefined;
   chainId: number | undefined;

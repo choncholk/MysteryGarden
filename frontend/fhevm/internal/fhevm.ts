@@ -9,6 +9,7 @@ import { isFhevmWindowType, RelayerSDKLoader } from "./RelayerSDKLoader";
 import { publicKeyStorageGet, publicKeyStorageSet } from "./PublicKeyStorage";
 import { FhevmInstance, FhevmInstanceConfig } from "../fhevmTypes";
 
+// Custom error class for FHEVM-related errors
 export class FhevmReactError extends Error {
   code: string;
   constructor(code: string, message?: string, options?: ErrorOptions) {

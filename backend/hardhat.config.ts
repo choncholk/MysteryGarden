@@ -1,3 +1,4 @@
+// FHEVM and Hardhat plugins - updated to latest versions
 import "@fhevm/hardhat-plugin";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-ethers";
